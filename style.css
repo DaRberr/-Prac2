@@ -7,19 +7,11 @@ p, h1, h2, h3, li, caption {
 a:link {
     text-decoration: none ;
 }
-a,h4 {
+.a,h4 {
     color: cornflowerblue;
 }
 #mafia {
     background-image: url(chinatown.jpg) ;
-}
-th {
-    color: bisque;
-    border: 1px solid peru;
-    width: 150px;
-}
-#t1 {
-    border: 2px solid peru;
 }
 #img1{
     width: 640px;
