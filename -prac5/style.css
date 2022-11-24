@@ -9,7 +9,6 @@ body{
     font-size: xx-large;
     }
 #caption1{
-    right: 0;
     position: absolute;
     font-weight: bold;
     text-align: center;
@@ -31,7 +30,6 @@ body{
     background-color: rgb(189, 219, 144);
 }
 #caption2{
-    right:0;
     position: absolute;
     font-weight: bold;
     text-align: center;
@@ -53,7 +51,6 @@ body{
     background-color: rgb(189, 219, 144);
 }
 #caption3{
-    right: 0;
     position: absolute;
     font-weight: bold;
     text-align: center;
@@ -76,6 +73,15 @@ body{
 
     /* Large devices only */
     @media (min-width: 993px) {
+    #caption3{
+        right: 6.25%;
+    }
+    #caption2{
+        right:37.5%;
+    }
+    #caption1{
+        right: 68.75%;
+    }
     .div1{
         margin-left: 6.25%;
     }
@@ -126,14 +132,17 @@ body{
     #caption1{
         padding-top: 0;
         margin-bottom: 15px;
+        right: 52.82%;
     }
     #caption2{
         padding-top: 0;
         margin-bottom: 15px;
+        right: 5.65% ;
     }
     #caption3{
         padding-top: 0;
         margin-bottom: 15px;
+        right: 5.65%;
     }
     .div1{
         margin-left:5.53%;
